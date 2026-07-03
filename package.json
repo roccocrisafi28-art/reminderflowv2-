@@ -1,0 +1,14 @@
+import "./globals.css";
+
+export const metadata = {
+  title: "ReminderFlow — reminders that fill your calendar",
+  description: "Personalized appointment reminder and reschedule emails for local service businesses.",
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
+}
